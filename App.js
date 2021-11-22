@@ -17,6 +17,8 @@ export default function App() {
     }else if (imc >= 34.9) {
       alert("Você está GORDO - IMC = " + imc.toFixed(2));
     }
+    setAltura(" ");
+    setPeso(" ");
   }
   return (
     <View style={estilo.container}>
